@@ -1,0 +1,30 @@
+@viewport {
+    zoom: 0.67;
+    max-zoom: 1.75;
+}
+
+@-o-viewport {
+    zoom: 0.67;
+    max-zoom: 1.75;
+}
+
+@-ms-viewport {
+    zoom: 0.67;
+    max-zoom: 1.75;
+}
+
+.app-layout {
+    min-width: 800px;
+}
+
+.ant-spin.ant-spin-spinning.ant-spin-show-text {
+    max-height: 100%;
+}
+
+.ant-spin-container.ant-spin-blur {
+    opacity: 0;
+}
+
+.app-loading {
+    cursor: wait;
+}
